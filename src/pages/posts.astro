@@ -1,53 +1,32 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
 const pageTitle = "Posts";
 ---
-<Layout pageTitle={pageTitle}>
-    <div class="gif">
-        <img width="300" height="259" alt="RaccoonLaptopGif" src="/blog.webp"/>
-    </div>
-    <h2>Blog</h2>
-    <ul role="list" class="link-card-grid">
-        <Card
-            url="https://medium.com/"
-            image="/blog-post.webp"
-            title="Blog 1"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-        <Card
-            url="https://medium.com/"
-            image="/blog-post.webp"
-            title="Blog 2"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-        <Card
-            url="https://medium.com/"
-            image="/blog-post.webp"
-            title="Blog 3"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-        <Card
-            url="https://medium.com/"
-            image="/blog-post.webp"
-            title="Blog 4"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-    </ul>
-    <h2>YouTube</h2>
-    <ul role="list" class="link-card-grid">
-        <Card
-            url="https://www.youtube.com/"
-            image="/youtube.webp"
-            title="Video 1"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-        <Card
-            url="https://www.youtube.com/"
-            image="/youtube.webp"
-            title="Video 2"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-    </ul>
-</Layout>
 
+<Layout pageTitle={pageTitle}>
+  <div class="gif">
+    <img width="300" height="259" alt="RaccoonLaptopGif" src="/blog.webp" />
+  </div>
+  <h2>Blog</h2>
+  <ul role="list" class="link-card-grid">
+    <Card
+      url="https://davide-ceschia.medium.com/zero-cost-abstractions-in-rust-unlocking-high-performance-and-expressiveness-75c1c0d27291"
+      image="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*k3dJoSokkTV4RW5w_UB4BA.png"
+      title="Zero-Cost Abstractions in Rust: Unlocking High Performance and Expressiveness"
+      body="As a passionate Rustacean, I am constantly amazed by the power and elegance of Rust."
+    />
+    <Card
+      url="https://davide-ceschia.medium.com/experimenting-with-javascript-objects-part-2-979c746035b"
+      image="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*3t7x9Ny1BC0Gmlrw"
+      title="Experimenting with Javascript Objects (Part 2)"
+      body="Comparing and copying Javascript Objects"
+    />
+    <Card
+      url="https://davide-ceschia.medium.com/experimenting-with-javascript-objects-part-1-16956b97b0c7"
+      image="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*3t7x9Ny1BC0Gmlrw"
+      title="Experimenting with Javascript Objects (Part 1)"
+      body="Introduction to Javascript Objects"
+    />
+  </ul>
+</Layout>

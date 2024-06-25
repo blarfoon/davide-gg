@@ -1,19 +1,19 @@
 ---
-title: 'Project 1'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+title: 'GDLauncher'
+description: 'GDLauncher Carbon is a simple, yet powerful Minecraft custom launcher with a strong focus on the user experience.'
 image:
-    url: '/GitHub.webp'
+    url: '/gdlauncher_screenshot.webp'
     alt: 'GitHub wallpaper'
 worksImage1:
-    url: '/image-1.webp'
+    url: '/gdlauncher_authentication.png'
     alt: 'first image of your project.'
 worksImage2:
-    url: '/image-2.webp'
+    url: '/gdlauncher_modpacks.png'
     alt: 'second image of your project.'
-platform: Web
-stack: Astro, JavaScript
-website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+platform: Desktop
+stack: TypeScript, Electron, SolidJS, TailwindCSS, Rust, Axum, SQLite
+website: https://gdlauncher.com
+github: https://github.com/gorilla-devs/GDLauncher-Carbon
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+GDLauncher Carbon is a simple, yet powerful Minecraft custom launcher with a strong focus on the user experience
